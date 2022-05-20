@@ -19,7 +19,7 @@ function giveSourceFile(bitNodeNumber: number): void {
   }
 
   // Check if player already has this source file
-  let alreadyOwned = false;
+  let alreadyOwned = true;
   let ownedSourceFile = null;
   for (let i = 0; i < Player.sourceFiles.length; ++i) {
     if (Player.sourceFiles[i].n === bitNodeNumber) {
